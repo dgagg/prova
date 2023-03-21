@@ -1,0 +1,49 @@
+/*Reset Styleshhet*/
+
+/*Generici*/
+img{vertical-align:middle}
+* {box-sizing:border-box;}
+
+/*Compatibilità*/
+.piedipagina{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+
+/*Caratteri*/
+html,body {font-family: 'EB Garamond', serif; font-size:25px; line-height:1.5}
+html{overflow-x: hidden}
+h1,h2,h3,h4,h5,h6{font-family:'Titillium Web',sans-serif; white-space:normal}
+h1,h2,h3{line-height:1; letter-spacing:5px}
+h4,h5,h6{line-height:1; letter-spacing:1px}
+h1{font-size: 3vw} h2{font-size:2vw} h3{font-size:1.8vw} h4{font-size:1.5vw} h5{font-size:1vw} h6{font-size:0.7vw}
+.serif{font-family:serif} .sans-serif{font-family:sans-serif} .cursive{font-family:cursive} .monospace{font-family:monospace} .wide{letter-spacing:4px}.italic{font-style:italic;}.smallcap{font-variant: small-caps;}
+hr{border:0;border-top:1px solid#eee; margin:20px 0}
+.nav-button{font-size:1vw}
+.nav-button:hover{font-size:1vw}
+.piebutton{font-size:1vw;text-align: center; text-decoration: none!important}
+
+/*Colori*/
+.testata,.piedipagina{color:#fff; background-color:#007200ff}
+.nav-button{color:#000000; background-color:rgba(135, 231, 167, 0.212)}
+.nav-button:hover,:focus{color:#000000; background-color:#AA7200ff; border:1px solid #212121}
+a:link {color:#1c2aa8} a:visited{color:#611091} a:link:active, a:visited:active {color:#212121}
+.piedipagina:disabled{cursor:not-allowed;opacity:0.3}
+.piebutton {color: #fff;}
+.piebutton:hover,:focus{background-color: rgba(200,108,108, 0.8)}
+.piebutton:active{background-color: rgba(200,08,08, 0.8)}
+.disattiva{background-color: rgba(204, 204, 204, 0.723)}
+
+/*Padding-Bordi*/
+.testata{max-height:6%; padding:0.1% 0 0.1% 0; margin: 0 0 2% 0}
+.piedipagina{max-height:10%;padding: 0 0 0 0; margin: 0 0 0 0}
+.piebutton{padding:1em 1em 1em 1em; margin: -1px -1px -1px 0; border:1px solid #212121} 
+.nav-button{border:1px solid #212121}
+
+/*Allineamento-Posizione-Dimensione*/
+.center-text {text-align:center}
+.center-image {margin-left:auto; margin-right:auto}
+.nav-button {position:absolute}
+.piedipagina {overflow:hidden; display:flex; width:auto}
+.piebutton{display: inline-block; float: left;}
+
+/*Movimento*/
+.transizione {transition:width.35s; transition-timing-function:ease-in-out}
+
